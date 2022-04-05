@@ -7,5 +7,5 @@ def soma(x, y):
 
 lista = [1, 3, 4, 5]
 
-soma = reduce(soma, lista)
+soma = reduce(soma, lista)  # Soma o valor de todos os itens da lista
 print(soma)
